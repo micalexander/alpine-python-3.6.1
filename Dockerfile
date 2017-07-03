@@ -6,7 +6,7 @@
 
 FROM alpine:3.4
 
-ARG PREFIX_DIR=/usr/local/python
+ARG PREFIX_DIR=/usr/local/python3
 
 # Replace the default install directory
 # e.g. in vim :%s/\/usr\/local/$PREFIX_DIR/g
